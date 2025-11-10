@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Courses</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body{background:#f8f9fa}
+.navbar{background:#4facfe}
+.sidebar{
+  height:100vh;
+  background:#fff;
+  border-right:1px solid #ddd;
+  padding-top:20px;
+}
+.sidebar a{
+  display:block;
+  padding:10px 20px;
+  color:#333;
+  text-decoration:none;
+}
+.sidebar a:hover{
+  background:#4facfe;
+  color:#fff;
+}
+.main{padding:20px}
+.card{
+  border:none;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">College Dashboard</a>
+    <a href="login.html" class="text-white text-decoration-none">Logout</a>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 sidebar">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="students.html">Students</a>
+      <a href="courses.html">Courses</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="col-md-9 main">
+      <h3>Courses Offered</h3>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>B.voc Software Development</h5>
+            <p>Duration: 3 Years</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>B.tech Computer science</h5>
+            <p>Duration: 4 Years</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>BCA</h5>
+            <p>Duration: 3 Years</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
